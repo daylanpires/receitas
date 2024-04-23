@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }     
+    
+    /* Mini Framework */
+
+    html,body{
+        height: 100%;
+        background: linear-gradient(40.15deg, #eaa847 16.62%, #FAFAD2 85.61%);
+    }
+    main{
+        max-width: 100%;
+        height: 500px;
+    }
+
+    .max-widht{
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .container{
+        max-width: 1330px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      
+
+    }
+    
+    .container form{
+        width: 350;
+        padding: 1rem; 
+        margin-top: 100px;  
+    }
+
+    /*menu*/
+
+    .menu{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2%;
+    }
+
+    .logo {
+        background: url(img/logo_ham.png) no-repeat;
+        background-size: contain;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+    .logo h1{       
+        width: 240px;
+        height: 50px;
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2 10%;
+        text-shadow: #fa5e00 1px 0 5px;        
+    }   
+    .logo h2{
+        text-shadow: #fa5e00 1px 0 5px;
+        font-size: 40px;
+        width: 900px;
+        height: 200px;
+        margin-top: 80px;
+    }   
+
+    /*content*/
+
+    .down{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        min-height: 360px;
+    }
+
+    /*titulo*/
+
+    .titulo{
+        width: 100%;
+        min-height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .rodape{
+        background-color: #0c0c0c;
+        color: white;
+        height: auto;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /*desktop-menu*/
+    .desktop-menu ul{
+        display: flex;
+    }
+
+    .desktop-menu ul li{
+        padding: 0 25px;
+        list-style-type: none;
+    }
+    .desktop-menu ul li a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+    }
+    .desktop-menu ul li a:hover{
+        color: #fa5e00;
+    }
+
+    #home .container{
+        flex-direction: column;
+        justify-content: flex-start;
+        color: #000000;
+    }
+
+
+    #home .right{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #home .right h1{
+        text-align: end;
+        font-size: 50px;
+    }
+
+    #home .right h2{
+        text-align: end;
+        margin-top: 20px;
+    }
+    

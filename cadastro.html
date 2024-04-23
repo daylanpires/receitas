@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="formatos.css">
+    <link rel="shortcut icon" href="img/logo_ham.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="max-width" id="home">
+        <div class="container">
+          
+          <div class="menu">             
+          <div class="logo"> 
+          <h1>Cadastro</h1>
+          </div>                             
+                <div class="desktop-menu">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="receitas.html">Receitas</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>                        
+                    </ul>
+                </div>
+            </div>
+            <main class="container-fluid">              
+              <form class="d-flex aligh-items-center bg-body-tertiary">  
+                <h1>Efetue seu cadastro</h1>            
+                <div class="form-floating"></div>
+                  <label for="float-right">Nome</label>
+                  <input type="nome" class="form-control form-control-lg" id="floatingInput" placeholder="Seu nome" required>                                
+                <div class="form-floating"></div>
+                  <label for="float-right">E-mail</label>
+                  <input type="email" class="form-control" id="floatingInput" placeholder="Seu e-mail" required>
+                <div class="form-floating">
+                  <label for="float-right">CEP</label>
+                  <input type="cep" class="form-control" id="floatingInput" placeholder="CEP do endereço" required>
+                </div>
+                <div class="form-floating">
+                  <label for="float-right">Rua</label>
+                  <input type="rua" class="form-control" id="floatingInput" placeholder="Rua" required>
+                </div>
+                <div class="form-floating">
+                  <label for="float-right">Nº</label>
+                  <input type="numero" class="form-control" id="floatingInput" placeholder="Número da residencia" required>                
+                  <label for="float-right">Complemento</label>
+                  <input type="complemento" class="form-control" id="floatingInput" placeholder="Complemento" required> 
+                </div>
+                <div class="form-floating">
+                  <label for="float-right">Cidade</label>
+                  <input type="cidade" class="form-control" id="floatingInput" placeholder="Cidade" required>
+                  <label for="float-right">UF</label>
+                  <input type="uf" class="form-control" id="floatingInput" placeholder="Estado" required>  
+                </div>                        
+                    <button class="btn btn-outline-success" type="cadastro">Cadastrar</button>
+               
+            </form>
+        </div>
+        
+            </main>
+    </header>
+    <footer class="rodape">
+        <h3> © Day Pires 2024</h3>
+    </footer>
+</body>
+</html>

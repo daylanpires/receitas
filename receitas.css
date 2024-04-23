@@ -1,0 +1,107 @@
+@charset "UTF-8";
+        
+
+    #card .content{
+        position: absolute;
+        left: 0%;
+        top: 20%;
+        
+    }
+    #card .down{
+        align-items: stretch;
+        text-align: center;
+        font-size: medium;          
+    }
+    #card .box1{
+        background: rgb(245, 222, 179);
+        border-radius: 20px;
+        border: 5px solid;
+        margin: 10px;
+        padding: 20px;
+        padding-top: 10px;   
+    }
+
+    #card .box2{
+        background: rgb(245, 222, 179);
+        border-radius: 20px;
+        border: 5px solid;
+        margin: 15px;
+        padding: 20px;
+        padding-top: 10px;     
+    }
+
+    #card .box3{
+        background: rgb(245, 222, 179);
+        border-radius: 20px;
+        border: 5px solid;
+        margin: 15px;
+        padding: 30px;
+        padding-top: 10px;
+
+    }
+
+    .box1 ul li{
+        padding: 0 25px;
+        list-style-type: none;
+        display: flex;
+        text-align: justify;
+        align-items: stretch;
+    }
+    
+    .box2 ul li{
+        padding: 0 25px;
+        list-style-type: none;
+        display: flex;
+        text-align: justify;
+        align-items: stretch;
+    }
+
+    .box3 ul li{
+        padding: 0 25px;
+        list-style-type: none;
+        display: flex;
+        text-align: justify;
+    }
+
+    #receitas .container{
+        flex-direction: column;
+        justify-content: flex-start;
+        color: #000000;
+    }
+
+    .box1 img{
+        background-size: contain;
+        width: 320px;
+        height: 250px;
+        padding-bottom: 10px;
+        position: relative; 
+        align-items: stretch;
+    }
+
+    .box2 img{
+        background-size: contain;
+        width: 320px;
+        height: 250px;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    .box3 img{
+        background-size: contain;
+        width: 320px;
+        height: 250px;
+        padding-bottom: 10px;
+        position: relative; 
+    }
+
+    .color-laranja{
+        color: #fa5e00;
+    }
+
+    .color-cinza-1{
+        color: #2b2b2b;
+    }
+
+    .color-cinza-2{
+        color: #545454;
+    }
